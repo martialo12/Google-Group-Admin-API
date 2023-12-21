@@ -21,7 +21,7 @@ A Python library for managing Google Cloud Platform (GCP) groups through the Goo
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/[YourGitHubUsername]/Google-Group-Admin-API.git
+git clone https://github.com/martialo12/Google-Group-Admin-API
 cd Google-Group-Admin-API
 
 ```
