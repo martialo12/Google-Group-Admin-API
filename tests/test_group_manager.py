@@ -61,5 +61,6 @@ class TestGoogleWorkspaceGroupManager(unittest.TestCase):
         result = self.group_manager.create_group('newgroup@example.com', 'New Group', 'Description')
         self.assertEqual(result, {'name': 'New Group', 'email': 'newgroup@example.com'})
 
+
 if __name__ == '__main__':
     unittest.main()

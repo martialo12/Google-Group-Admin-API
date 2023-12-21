@@ -1,6 +1,4 @@
 from typing import Optional, List, Dict, Any
-from google.oauth2 import service_account
-from googleapiclient.discovery import build, Resource
 
 from .config import GoogleWorkspaceConfig
 

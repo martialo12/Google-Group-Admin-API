@@ -1,10 +1,11 @@
 from google.oauth2 import service_account
 from googleapiclient.discovery import build, Resource
 
+
 class GoogleWorkspaceConfig:
     """
     Configuration class for Google Workspace API authentication.
-    
+
     Attributes:
         service_account_file (str): Path to the service account JSON key file.
         scopes (list[str]): List of scopes required for the API access.
