@@ -1,3 +1,0 @@
-google-auth==2.6.6
-google-api-python-client==2.41.0
-mkdocstrings==0.24.0
