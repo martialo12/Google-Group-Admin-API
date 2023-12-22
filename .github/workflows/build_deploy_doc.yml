@@ -27,10 +27,10 @@ jobs:
         # See https://github.com/jmpicnic/actions-gen-mkdocs for details 
         uses: jmpicnic/actions-gen-mkdocs@v1 
         with:
-          docs-dir: "./docs"
-          site-target-dir: "site"
-          requirements-file-name: requirements.txt 
-          mkdocs-file-name: mkdocs.yml
+          docs-dir: "."
+          site-target-dir: "./site"
+          requirements-file-name: "requirements.txt"
+          mkdocs-file-name: "mkdocs.yml"
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2 
         with: 
@@ -52,5 +52,5 @@ jobs:
     steps: 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v2
         # or the latest "vX.X.X" version tag for this action
